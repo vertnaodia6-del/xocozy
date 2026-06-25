@@ -17,6 +17,21 @@ function saveBooking(payload) {
   localStorage.setItem('xocozy-bookings', JSON.stringify(existing));
 }
 
+function sendToEmail(form, feedback, type) {
+  const formData = new FormData(form);
+  const payload = Object.fromEntries(formData.entries());
+  const lines = Object.entries(payload)
+    .filter(([, value]) => value)
+    .map(([key, value]) => `${key}: ${value}`)
+    .join('\n');
+  const subject = encodeURIComponent(type === 'booking' ? 'Nouvelle demande de réservation XOCOZY' : 'Nouveau message de contact XOCOZY');
+  const body = encodeURIComponent(lines || 'Aucune information supplémentaire fournie.');
+  const mailtoUrl = `mailto:naodia.vert@linkeo.com?subject=${subject}&body=${body}`;
+
+  window.location.href = mailtoUrl;
+  showFeedback(feedback, 'Votre message a été préparé. Votre client e-mail va s’ouvrir avec l’adresse de destination.', 'success');
+}
+
 window.addEventListener('DOMContentLoaded', () => {
   if (bookingForm) {
     bookingForm.addEventListener('submit', (event) => {
@@ -30,7 +45,7 @@ window.addEventListener('DOMContentLoaded', () => {
       const payload = Object.fromEntries(formData.entries());
       saveBooking(payload);
       bookingForm.reset();
-      showFeedback(feedback, 'Votre demande de réservation a bien été enregistrée.', 'success');
+      sendToEmail(bookingForm, feedback, 'booking');
     });
   }
 
@@ -46,7 +61,7 @@ window.addEventListener('DOMContentLoaded', () => {
         return;
       }
       contactForm.reset();
-      showFeedback(feedback, 'Merci, votre message a bien été envoyé.', 'success');
+      sendToEmail(contactForm, feedback, 'contact');
     });
   }
 });
