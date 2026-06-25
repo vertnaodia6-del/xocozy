@@ -1,0 +1,20 @@
+body[data-theme='dark'] {
+  --color-bg: #17131b;
+  --surface: #231c27;
+  --surface-alt: #1b151f;
+  --text: #f4ecf2;
+  --muted: #d8c8d2;
+  --border: rgba(255, 255, 255, 0.12);
+  --shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+body[data-theme='dark'] .site-header {
+  background: rgba(23, 19, 27, 0.95);
+}
+
+body[data-theme='dark'] .button.secondary,
+body[data-theme='dark'] .icon-button,
+body[data-theme='dark'] .lang-switch {
+  background: var(--surface);
+  color: var(--text);
+}

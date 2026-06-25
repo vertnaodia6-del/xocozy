@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | Éclat Studio</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/themes.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html" aria-label="Éclat Studio accueil">
+          <img src="../assets/images/logo.svg" alt="Éclat Studio" />
+          <span>Éclat Studio</span>
+        </a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Ouvrir le menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Navigation principale">
+          <a href="../index.html" data-i18n="navHome">Accueil</a>
+          <a href="about.html" data-i18n="navAbout">À propos</a>
+          <a href="services.html" data-i18n="navServices">Services</a>
+          <a href="pricing.html" data-i18n="navPricing">Tarifs</a>
+          <a href="booking.html" data-i18n="navBooking">Réservation</a>
+          <a href="contact.html" data-i18n="navContact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button id="themeToggle" class="icon-button" type="button" aria-label="Basculer le thème"><span aria-hidden="true">☀️</span></button>
+          <select id="languageSwitcher" class="lang-switch" aria-label="Choisir la langue">
+            <option value="fr">FR</option>
+            <option value="en">EN</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow" data-i18n="navServices">Services</p>
+          <h1 data-i18n="pageServicesTitle">Nos services</h1>
+          <p class="lead" data-i18n="pageServicesIntro">Des prestations pensées pour sublimer votre beauté au quotidien.</p>
+        </div>
+      </section>
+
+      <section class="page-content">
+        <div class="container card-grid three-up">
+          <article class="card">
+            <h2 data-i18n="service1Title">Éclat visage</h2>
+            <p data-i18n="service1Text">Soin visage premium avec nettoyage, massage et masque adapté à votre peau.</p>
+          </article>
+          <article class="card">
+            <h2 data-i18n="service2Title">Coupure signature</h2>
+            <p data-i18n="service2Text">Coupes sculptées et styling pour une silhouette parfaitement maîtrisée.</p>
+          </article>
+          <article class="card">
+            <h2 data-i18n="service3Title">Manucure luxe</h2>
+            <p data-i18n="service3Text">Pose longue tenue, soins des cuticules et finition élégante.</p>
+          </article>
+          <article class="card">
+            <h2 data-i18n="service4Title">Massage détente</h2>
+            <p data-i18n="service4Text">Rituel de relaxation pour relâcher les tensions du quotidien.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Éclat Studio</p>
+        <div class="footer-links">
+          <a href="contact.html">Contact</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/translations.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/booking.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

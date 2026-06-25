@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Éclat Studio logo">
+  <rect width="160" height="160" rx="32" fill="#612D53"/>
+  <circle cx="80" cy="80" r="46" fill="#F3F4F4"/>
+  <path d="M80 42c14 0 28 10 28 28 0 21-17 38-28 48-11-10-28-27-28-48 0-18 14-28 28-28z" fill="#853953"/>
+</svg>

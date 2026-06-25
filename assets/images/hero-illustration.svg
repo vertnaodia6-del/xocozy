@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Illustration de beauté">
+  <rect width="600" height="600" rx="40" fill="#F7F0F2"/>
+  <circle cx="300" cy="260" r="140" fill="#612D53"/>
+  <path d="M210 460c38-80 152-80 190 0" fill="#853953"/>
+  <rect x="208" y="130" width="184" height="100" rx="26" fill="#2C2C2C"/>
+  <rect x="215" y="140" width="170" height="80" rx="22" fill="#F3F4F4"/>
+  <circle cx="300" cy="180" r="34" fill="#853953"/>
+  <path d="M260 120c18-32 62-32 80 0" stroke="#2C2C2C" stroke-width="12" stroke-linecap="round"/>
+</svg>
