@@ -1,0 +1,150 @@
+# TEST FINAL WEB – CAHIER DES CHARGES
+
+## Objectif
+
+Créer un site web complet **from scratch** en respectant les contraintes techniques, graphiques et fonctionnelles définies ci-dessous.
+
+---
+
+# Choix du projet
+
+Choisir **un seul** des projets suivants :
+
+### Option 1 : Site Café
+
+Exemple : Café artisanal, coffee shop, salon de thé.
+
+### Option 2 : Site Restaurant
+
+Exemple : Restaurant traditionnel, gastronomique, fast casual, etc.
+
+### Option 3 : Site Beauté & Bien-être
+
+Exemple : Institut de beauté, salon de coiffure, spa, onglerie, barber shop.
+
+---
+
+# Exigences obligatoires (40 points)
+
+## Structure du site
+
+Le site doit contenir au minimum :
+
+* 1 Home Page (HP)
+* 2 Landing Pages (LP) minimum
+* 1 Page Contact
+* Pages supplémentaires libres (aucune limite)
+
+## Responsive Design
+
+Le site doit être :
+
+* 100 % responsive
+* Conçu selon une approche **Mobile First**
+
+## Design & Identité Visuelle
+
+Choisir l'une des palettes de couleurs suivantes :
+
+### Palette 1
+
+* #7BE0AD
+* #AEE5D8
+* #E7E5E5
+* #E5D0E3
+* #E0B0D5
+
+### Palette 2
+
+* #4E220F
+* #9D6638
+* #B0BA99
+* #F7F1DE
+
+### Palette 3
+
+* #2C2C2C
+* #612D53
+* #853953
+* #F3F4F4
+
+---
+
+# Bonus (40 points)
+
+Chaque fonctionnalité bonus apporte des points supplémentaires :
+
+* Formulaire de contact fonctionnel
+* Système Light / Dark Mode
+* Site multilingue
+
+---
+
+# Bonus Avancé (+20 points)
+
+Mettre en place l'un des systèmes suivants :
+
+* Module de réservation
+* Planner / prise de rendez-vous
+* Système de réservation de table
+
+---
+
+# Publication
+
+Le site doit être :
+
+* Hébergé
+* Accessible en ligne via une URL publique
+* Fonctionnel lors de la présentation finale
+
+---
+
+# Liberté Créative
+
+L'utilisation de l'IA est autorisée pour :
+
+* Génération du logo
+* Création ou recherche d'images
+* Rédaction des contenus
+* Inspiration graphique
+
+---
+
+# Durée du test
+
+⏱ Temps imparti : **8 heures**
+
+---
+
+# Jokers
+
+Chaque participant dispose de **2 jokers maximum** :
+
+### Joker 1 : Appel à un ami
+
+* Assistance autorisée pour débloquer un problème.
+
+### Joker 2 : Appel CQ
+
+* Question rapide auprès du référent.
+* Temps limité à 1 minute.
+
+---
+
+# Validation Finale
+
+### Barème total : 100 points
+
+Les critères d'évaluation porteront sur :
+
+* Respect du cahier des charges
+* Qualité du design
+* Responsive Design
+* Qualité du code
+* Expérience utilisateur (UX)
+* Respect du délai
+* Mise en ligne du projet
+* Fonctionnalités bonus réalisées
+
+**Score maximal : 100 points**
